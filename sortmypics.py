@@ -15,11 +15,10 @@ import errno
 
 from optparse import OptionParser
 from datetime import datetime
-
-
-
 from sys import argv, stderr, exit
+
 answer = ""
+
 
 def main():
  usage = "usage: %prog [options]"
