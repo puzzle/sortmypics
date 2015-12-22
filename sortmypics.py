@@ -85,7 +85,6 @@ class SortMyPics:
     for pic,dir_string in pics:
       (head,tail) = os.path.split(pic)
       dir_string = dir_string+tail
-      print "ldldld %s" %(dir_string)
       if os.path.exists(dir_string):
         self.ask_if_overwrite(pic)
         if self.__answer == "y" or self.__answer == "a":
