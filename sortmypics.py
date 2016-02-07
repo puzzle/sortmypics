@@ -40,7 +40,7 @@ class SortMyPics:
       return parser.parse_args() 
     else:
       parser.print_help()
-      return None
+      sys.exit(0)
 
   """Get date of pics and make destination directories""" 
   def make_destination_directories(self,src_dir, dest_dir):
